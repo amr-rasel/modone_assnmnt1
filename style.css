@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+}
+
+.orangetext{
+    color: orange;
+}
+
+.redtext{
+    color: red;
+}
+.container{
+    /* height: 100vh; */
+
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+}
+
+.halfwidth{
+    width: 50%;
+}
+
+.top{
+    margin-top: 140px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 100%;
+}
+.top-heading{
+    display: flex;
+}
+
+
+.top-heading h1{
+    
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: -15px;
+
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.vl{
+padding-top: 5px;
+    height: 125px;
+    border-left: 5px solid orange;
+}
+.top-text p{
+    text-align: justify;
+}
+
+.button{
+    text-align:center;
+    width: 170px;
+    background-color: orange;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.top-right img{
+    width: 100%;
+    margin-top: -220px;
+    height: 700px;
+
+    margin-left: 50px;
+}
+.mission{
+    margin-bottom: 80px;
+}
+.mission h1{
+    text-align: center;
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+}
+.card{
+    width: 30%;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.card img{
+    height: 141px;
+    width: 141px;
+}
+
+.mission-bg{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.vision-bg{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.goals-bg{
+    background-color: #FFF4D6;
+}
+
+h4{
+    margin: 0px;
+    font-weight: bold;
+}
+.develop{
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.develop-left{
+    width: 30%;
+}
+.develop-left img{
+    width: 100%;
+}
+
+.develop-right{
+    width: 60%;
+    display: flex;
+    padding: 5% 0;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+.community{
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.community-left{
+    width: 60%;
+    padding: 5% 0;
+}
+
+
+.community-right{
+    width: 30%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-items: center;
+}
+
+.community-right img{
+    width: 100%;
+}
+.mysectitle{
+    text-align: center;
+}
+
+.mysec{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.mysec-left{
+    width: 45%;
+}
+.mysec-right{
+    width: 45%;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #0B0D17;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.footer h1{
+    color: white;
+    padding: 40px 0 24px;
+}
+
+.footer p{
+    color: white;
+}
